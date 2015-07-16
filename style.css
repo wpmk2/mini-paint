@@ -15,14 +15,16 @@ hr {
 div {
     width: 100%;
     height: 600px;
+    border: 1px black solid; /*I added this*/
 }
 
 div div {
     width: 1%;
     height: 2%;
-    outline: 1px solid #fff;
+    /*outline: 1px solid #fff;*/
+    border: none;
     float: left;
-    background: black;
+    background: white;
 }
 
 .white {
@@ -43,6 +45,14 @@ div div {
 
 .yellow {
   background: yellow;
+}
+
+.purple {
+  background: purple;
+}
+
+.black {
+  background: black;
 }
 
 .pallette-white {
@@ -84,6 +94,13 @@ div div {
 
 .pallette-blue {
   background: blue;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+
+.pallette-purple {
+  background: purple;
   height: 2%;
   width: 1%;
   padding: 10px;
